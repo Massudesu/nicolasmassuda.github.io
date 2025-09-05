@@ -55,7 +55,7 @@ body {
   animation: beat 1.2s infinite ease-in-out;
 }
 .heart::before {
-  content: "❤";
+  content: "🔅";
   font-size: 96px;
   line-height: 1;
   color: var(--accent);
