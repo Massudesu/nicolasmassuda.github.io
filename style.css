@@ -1,6 +1,6 @@
 /* Reset e Configurações Globais */
 :root {
-  --accent: #00ffff; /* Ciano */
+  --accent: #00ffff; 
   --purple: #a020f0;
   --dark-bg: #0a0a0f;
   --dark-card: #111;
@@ -37,7 +37,7 @@ body {
 }
 .curtain.hidden {
   opacity: 0;
-  visibility: hidden; /* Garante que não é clicável após sumir */
+  visibility: hidden; 
   pointer-events: none;
 }
 .curtain-inner {
@@ -55,7 +55,7 @@ body {
   animation: beat 1.2s infinite ease-in-out;
 }
 .heart::before {
-  content: "🔅";
+  content: "(✿◡‿◡)";
   font-size: 96px;
   line-height: 1;
   color: var(--accent);
@@ -98,7 +98,7 @@ header {
   width: 100%;
   top: 0;
   z-index: 1000;
-  backdrop-filter: blur(5px); /* Efeito de vidro fosco */
+  backdrop-filter: blur(5px); 
 }
 .navbar {
   display: flex;
@@ -134,7 +134,7 @@ header {
 
 /* Seções */
 section {
-  padding: 120px 50px; /* Aumentei o padding superior para compensar a navbar fixa */
+  padding: 120px 50px; 
   text-align: center;
   position: relative;
 }
@@ -151,7 +151,7 @@ h2 {
   justify-content: space-around;
   align-items: center;
   min-height: 100vh;
-  text-align: left; /* Melhor para o texto */
+  text-align: left; 
 }
 .home-text h1 { font-size: 40px; }
 .home-text p { margin: 10px 0; }
@@ -166,7 +166,7 @@ h2 {
   transition: transform 0.3s;
 }
 .btn:hover, .btn-outline:hover {
-  transform: translateY(-3px); /* Efeito ao passar o mouse */
+  transform: translateY(-3px); 
 }
 .btn {
   background: var(--accent);
@@ -188,7 +188,7 @@ h2 {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  max-width: 800px; /* Limita a largura para melhor leitura */
+  max-width: 800px; 
   margin: 0 auto;
   text-align: left;
 }
@@ -208,7 +208,7 @@ h2 {
 .skills {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap; /* Permite que os ícones quebrem a linha */
+  flex-wrap: wrap; 
   gap: 40px;
 }
 .skills img {
@@ -221,20 +221,20 @@ h2 {
 .projetos-grid {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap; /* Permite que os cards quebrem a linha */
+  flex-wrap: wrap; 
   gap: 30px;
 }
 .projeto-card {
   background: var(--dark-card);
   padding: 15px;
   border-radius: 10px;
-  width: 230px; /* Largura fixa para alinhar melhor */
+  width: 230px;
 }
 .projeto-card img {
-  width: 100%; /* Faz a imagem ocupar todo o card */
+  width: 100%; 
   border-radius: 10px;
-  height: 120px; /* Altura fixa para as imagens */
-  object-fit: cover; /* Garante que a imagem cubra o espaço */
+  height: 120px; 
+  object-fit: cover; 
 }
 
 /* Contato */
