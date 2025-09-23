@@ -1,4 +1,4 @@
-/* Reset e Configurações Globais */
+
 :root {
   --accent: #00ffff; 
   --purple: #a020f0;
@@ -27,7 +27,7 @@ body {
   position: relative;
 }
 
-/* Cortina de Carregamento */
+
 .curtain {
   position: fixed;
   inset: 0;
@@ -80,7 +80,7 @@ body {
   font-size: 12px;
 }
 
-/* Círculos de Fundo */ 
+/*circulos*/ 
 .circle {
   position: absolute;
   border-radius: 50%;
@@ -92,7 +92,7 @@ body {
 .circle.purple { background: var(--purple); }
 .circle.blue { background: #1e90ff; } 
 
-/* Navbar */
+/*nav*/
 header {
   background: rgba(0,0,0,0.6);
   padding: 15px 40px;
@@ -134,7 +134,7 @@ header {
   text-decoration: none;
 }
 
-/* Seções */
+
 section {
   padding: 120px 50px; 
   text-align: center;
@@ -147,7 +147,7 @@ h2 {
   color: var(--accent);
 }
 
-/* Home */
+
 .home {
   display: flex;
   justify-content: space-around;
@@ -184,7 +184,7 @@ h2 {
   box-shadow: 0 0 20px #00ffff80;
 }
 
-/* Sobre */
+
 .sobre-content {
   display: flex;
   justify-content: center;
@@ -200,13 +200,13 @@ h2 {
   box-shadow: 0 0 20px #a020f080;
 }
 
-/* Formação */
+
 .formacao ul {
   list-style: none;
   margin-top: 15px;
 }
 
-/* Habilidades */
+
 .skills {
   display: flex;
   justify-content: center;
@@ -219,7 +219,7 @@ h2 {
 }
 .skills img:hover { transform: scale(1.2); }
 
-/* Projetos */
+
 .projetos-grid {
   display: flex;
   justify-content: center;
@@ -239,7 +239,7 @@ h2 {
   object-fit: cover; 
 }
 
-/* Contato */
+
 .socials {
   display: flex;
   justify-content: center;
@@ -278,7 +278,7 @@ h2 {
   font-weight: bold;
 }
 
-/* Footer */
+
 footer {
   background: var(--dark-card);
   padding: 20px;
