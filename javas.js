@@ -69,3 +69,8 @@
   curtain.addEventListener('transitionend', () => {
   
   });
+  document.querySelectorAll('.imagens').forEach(image => {
+    image.addEventListener('click', () => {
+      image.style.backgroundColor = image.style.backgroundColor === 'rgb(255, 99, 71)' ? '#000000ff' : 'rgb(255, 99, 71)';
+    });
+  });
